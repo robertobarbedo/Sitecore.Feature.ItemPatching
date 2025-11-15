@@ -17,6 +17,7 @@ namespace Sitecore.Feature.ItemPatching.Pipelines
 
         public ItemPatchingConfig Configuration { get; private set; }
 
+
         private Item _templateFolder;
         public Item TemplateFolder
         {

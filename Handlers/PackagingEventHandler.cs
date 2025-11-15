@@ -4,7 +4,8 @@ using System;
 namespace Sitecore.Feature.ItemPatching.Handlers
 {
     public class PackagingEventHandler
-    {
+  {
+      
         public void Apply(object sender, EventArgs e)
         {
             try

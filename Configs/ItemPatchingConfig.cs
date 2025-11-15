@@ -5,7 +5,8 @@ namespace Sitecore.Feature.ItemPatching.Configs
     public class ItemPatchingConfig
     {
         public ItemPatchingConfig()
-        {
+    {
+          
             Locations = new List<LocationConfig>();
         }
 

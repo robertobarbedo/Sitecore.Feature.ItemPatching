@@ -3,6 +3,7 @@ using Sitecore.Pipelines;
 
 namespace Sitecore.Feature.ItemPatching
 {
+  
     public class ItemPatchingManager
     {
         public static void Apply()

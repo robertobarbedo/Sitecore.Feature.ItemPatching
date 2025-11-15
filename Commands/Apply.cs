@@ -9,7 +9,7 @@ namespace Sitecore.Feature.ItemPatching.Commands
         public override void Execute(CommandContext context)
         {
             Sitecore.Context.ClientPage.Start(this, "Run");
-        }
+        } 
 
         protected void Run(ClientPipelineArgs args)
         {

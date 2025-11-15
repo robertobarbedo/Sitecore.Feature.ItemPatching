@@ -12,7 +12,7 @@ namespace Sitecore.Feature.ItemPatching
             var md5Hasher = MD5.Create();
             //do not change the salt hard coded - a change in these values will cause ids to change - this may break several dependencies
             var data = md5Hasher.ComputeHash(Encoding.Default.GetBytes("7K3Bzgbc3PjeSkXUhY6Bl" + value + "DSHJKF2983hjUIg98"));
-            return new ID(new Guid(data));
+            return new ID(new Guid(data)); 
         }
     }
 }

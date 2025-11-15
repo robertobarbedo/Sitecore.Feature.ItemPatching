@@ -42,5 +42,5 @@ namespace Sitecore.Feature.ItemPatching
             }
         }
     }
-}
+} 
 

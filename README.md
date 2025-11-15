@@ -14,7 +14,7 @@ A module that enables developers to define environment-specific values within Si
 * Automatic Application of Values: The module automatically updates items based on the environment when a package is installed or the server restarts.
 * Simple Configuration: Developers can configure which items and environments are managed using a simple .config file.
 
-## How the Module Works to Manage Sitecore Item Variations per Environment
+## How the Module Works to Manage  Sitecore Item Variations per Environment
 You can make any item in the content tree to be subject of environment-specific values. In the image below, we have some fields from “Settings” differing across environments.
 * The module automatically generates additional environment-specific items (represented in gray in the image).
 * Each environment-specific item stores only the difference between the main “Settings” item.

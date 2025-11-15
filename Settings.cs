@@ -21,7 +21,7 @@
         /// <summary>
         /// Return settings specific to a site. Using pattern SettingName:SiteName
         /// </summary>
-        /// <param name="name">Setting name</param>
+        /// <param name="name">Setting  name</param>
         /// <param name="defaultValue">Default value if setting is not present</param>
         /// <returns></returns>
         public static string GetMultisiteSettings(string name, string defaultValue)
